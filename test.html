@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transparent Navigation Bar</title>
+    <style>
+        /* Basic styling for the navigation bar */
+        .nav-bar {
+            padding: 10px ;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            position: fixed; 
+            top: 0; 
+            width: 100%;
+            z-index: 100;
+        }
+
+        .webpage-name {
+            font-weight: bold;
+            color: rgb(0, 0, 0); 
+          
+            font-size: 1.5em; 
+        }
+
+       
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: rgb(0, 0, 0); 
+            text-decoration: none; 
+            text-transform: uppercase; 
+            transition: color 0.2s; }
+
+  
+
+     
+        .search-bar {
+            border: none; 
+            padding: 5px ;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Transparent navigation bar -->
+    <div class="nav-bar">
+        <!-- Webpage name -->
+        <div class="webpage-name">BOP</div>
+
+        <!-- Navigation links -->
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+
+        <!-- Search bar -->
+        <input type="text" class="search-bar" placeholder="Search..." />
+    </div>
+
+    <!-- Main content area -->
+    <div style="padding-top: 60px;"> <!-- Padding to avoid overlap with the fixed nav bar -->
+        <h1>Welcome to the BOP Website</h1>
+        <p>This is the main content area.</p>
+    </div>
+</body>
+</html>

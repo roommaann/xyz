@@ -1,0 +1,137 @@
+
+
+.header {
+  position: relative;
+  background: url('pic1.jpg');
+  height: 800px;
+  color: #000000;
+  text-align: left;
+  padding-top: 50 px;
+  text-rendering: auto;
+  padding-left: 5%;
+
+}
+
+.nav-bar {
+  padding: 10px ;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  z-index: 100;
+}
+
+.webpage-name {
+  font-weight: bold;
+  color: rgb(0, 0, 0); 
+
+  font-size: 1.5em; 
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0); 
+  text-decoration: none; 
+  text-transform: uppercase; 
+  transition: color 0.2s; }
+
+
+
+
+.search-bar {
+  border: none; 
+padding-right: 25px ;
+  border-radius: 5px;
+  border-color: #000000;
+  box-shadow: #000000;
+}
+
+  .button{
+  padding: 10px 20px; 
+    margin: 10px; 
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    width :130px;}
+
+  
+        /* Container for the cards */
+        .card-container {
+            display: flex;
+            gap: 20px; /* Space between cards */
+            justify-content: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        /* Styling for individual cards */
+        .card {
+            background-color: rgba(255, 255, 255, 0.9); /* Light transparent background */
+            border-radius: 10px;
+            padding: 30px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+            transition: transform 0.2s; /* Hover animation */
+        }
+
+        /* Hover effect for cards */
+        .card:hover {
+            transform: scale(1.05); /* Slightly enlarges the card on hover */
+        }
+
+        /* Image styling */
+        .card img {
+            border-radius: 10px; /* Rounded corners for images */
+            width: 100%;
+            height: auto;
+        }
+
+        /* Subheading styling */
+        .card h3 {
+            margin: 10px 0 5px 0; /* Ensure proper spacing around subheading */
+            font-size: 18px; /* Slightly larger font for subheading */
+        }
+
+        /* Price styling */
+        .card .price {
+            font-size: 14px; /* Smaller font for price */
+            color: gray; /* Gray color for price */
+        }
+
+        /* Button styling */
+        .card button {
+            padding: 10px;
+            background-color: #3498db; /* Blue color for the button */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s; /* Animation on hover */
+        }
+
+        /* Button hover effect */
+        .card button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+
+        .sec3 {
+          position: relative;
+          background: url('image\ \(1\).png');
+          height: 700px;
+          width: 100%;
+          color: #000000;
+          text-align: left;
+          padding-top: 1000 px;
+          text-rendering: auto;
+          text-align: right;
+          padding-right: 5%;
+        }
+        
